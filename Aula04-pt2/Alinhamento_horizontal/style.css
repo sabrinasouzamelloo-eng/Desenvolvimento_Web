@@ -1,0 +1,10 @@
+:root {
+    --goiaba: #eaaa9b
+}
+
+
+.box{
+    width: 200px;
+    background-color: var(--goiaba);
+    height: 10px;
+}
