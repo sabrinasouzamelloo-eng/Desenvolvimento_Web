@@ -4,13 +4,21 @@
 
 
 .box{
-    width: 200px;
+    min-width: 400px;
     background-color: var(--goiaba);
-    height: 10px;
+    height: 400px;
     
+}
+
+
+
+html, body{
+height: 100%;
 }
 
 .container{
     display: flex;
-    gap: 5px;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
